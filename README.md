@@ -1,7 +1,3 @@
-Great! Here's a clear and professional **README** description you can use for your GitHub project. It explains your Excel model with Brownian motion, Monte Carlo simulation, and backtesting.
-
-You can copy this into a `README.md` file or your GitHub project description:
-
 ---
 
 ## 📈 Stock Price Simulation and VaR Backtesting (Excel Model)
