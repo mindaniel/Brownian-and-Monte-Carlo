@@ -1,72 +1,81 @@
-# Brownian-and-Monte-Carlo
-📈 Stock Price Simulation and VaR Backtesting (Excel Model)
-This project contains a simple and practical Excel model to simulate stock prices using a Geometric Brownian Motion (GBM) process, generate Monte Carlo paths, and estimate Value at Risk (VaR) and Expected Shortfall (ES). It also includes a basic backtesting framework to compare predicted VaR against actual market performance.
+Great! Here's a clear and professional **README** description you can use for your GitHub project. It explains your Excel model with Brownian motion, Monte Carlo simulation, and backtesting.
 
-🔧 Features
-GBM-based stock price simulation
+You can copy this into a `README.md` file or your GitHub project description:
 
-Uses historical mean and volatility to model future price movement
+---
 
-Simulates multiple price paths (e.g., 20 paths) over a 1-year horizon
+## 📈 Stock Price Simulation and VaR Backtesting (Excel Model)
 
-Monte Carlo simulation
+This project contains a simple and practical Excel model to simulate stock prices using a **Geometric Brownian Motion** (GBM) process, generate Monte Carlo paths, and estimate **Value at Risk (VaR)** and **Expected Shortfall (ES)**. It also includes a basic **backtesting framework** to compare predicted VaR against actual market performance.
 
-Randomized path generation using normally distributed shocks
+---
 
-Captures a range of possible future outcomes
+### 🔧 Features
 
-Value at Risk (VaR) and Expected Shortfall (ES)
+* **GBM-based stock price simulation**
 
-Calculates VaR and ES at 90%, 95%, and 99% confidence levels
+  * Uses historical mean and volatility to model future price movement
+  * Simulates multiple price paths (e.g., 20 paths) over a 1-year horizon
 
-Uses log returns from the simulations
+* **Monte Carlo simulation**
 
-Backtesting
+  * Randomized path generation using normally distributed shocks
+  * Captures a range of possible future outcomes
 
-Compares predicted daily VaR against actual historical log returns
+* **Value at Risk (VaR) and Expected Shortfall (ES)**
 
-Counts how many breaches (losses worse than VaR) occurred
+  * Calculates VaR and ES at 90%, 95%, and 99% confidence levels
+  * Uses log returns from the simulations
 
-Provides insight into model reliability
+* **Backtesting**
 
-📊 Use Cases
-Academic or student projects in finance, risk management, or quantitative modeling
+  * Compares predicted daily VaR against actual historical log returns
+  * Counts how many breaches (losses worse than VaR) occurred
+  * Provides insight into model reliability
 
-Practicing simulation techniques in Excel
+---
 
-Learning how to connect theoretical models to real-world validation via backtesting
+### 📊 Use Cases
 
-🧠 Concepts Used
-Geometric Brownian Motion (GBM)
+* Academic or student projects in finance, risk management, or quantitative modeling
+* Practicing simulation techniques in Excel
+* Learning how to connect theoretical models to real-world validation via backtesting
 
-Monte Carlo simulation
+---
 
-Log returns
+### 🧠 Concepts Used
 
-Empirical Value at Risk (VaR)
+* Geometric Brownian Motion (GBM)
+* Monte Carlo simulation
+* Log returns
+* Empirical Value at Risk (VaR)
+* Expected Shortfall (Conditional VaR)
+* VaR backtesting (exception count)
 
-Expected Shortfall (Conditional VaR)
+---
 
-VaR backtesting (exception count)
+### 📂 Files
 
-📂 Files
-MonteCarloVaR_Model.xlsx:
-Main Excel file containing all calculations, simulations, charts, and backtesting logic
+* `MonteCarloVaR_Model.xlsx`:
+  Main Excel file containing all calculations, simulations, charts, and backtesting logic
 
-✅ How to Use
-Open the Excel file
+---
 
-Update your historical stock data
+### ✅ How to Use
 
-Run the simulation (manually or with Excel formulas/macros)
+1. Open the Excel file
+2. Update your historical stock data
+3. Run the simulation (manually or with Excel formulas/macros)
+4. Check the calculated VaR/ES
+5. Use actual return data to backtest the predicted risk
 
-Check the calculated VaR/ES
+---
 
-Use actual return data to backtest the predicted risk
+### 📌 Notes
 
-📌 Notes
-Assumes constant volatility and drift (no jumps or time-varying volatility)
+* Assumes constant volatility and drift (no jumps or time-varying volatility)
+* Good starting point for extending to GARCH, EVT, or portfolio VaR
+* You can modify the number of paths, time horizon, or confidence level
 
-Good starting point for extending to GARCH, EVT, or portfolio VaR
+---
 
-You can modify the number of paths, time horizon, or confidence level
